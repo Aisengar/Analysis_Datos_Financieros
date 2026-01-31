@@ -181,3 +181,15 @@ pyrightconfig.json
 # End of https://www.toptal.com/developers/gitignore/api/python
 src/utils/constants.py
 src/utils/constants.py
+.DS_Store
+.AppleDouble
+.LSOverride
+### Data ###
+Extractos 2025/
+*.xlsx
+*.csv
+*.pdf
+*.json
+!data_schema.json  # Si tienes algún esquema que SÍ quieras subir
+*.db
+*.sql

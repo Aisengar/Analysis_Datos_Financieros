@@ -36,7 +36,7 @@ class Transaccion(Base):
     id_cuenta = Column(Integer, ForeignKey("cuentas_bancarias.id_cuenta"))
     fecha = Column(Date, nullable=False)
     concepto = Column(String(255))
-    metadata = Column(Text)
+    meta_data = Column(Text)
     cargo = Column(Numeric(13,2), nullable=False, default= 0.0)
     abono = Column(Numeric(13,2), nullable=False, default= 0.0)
     saldo = Column(Numeric(13,2), nullable=False, default= 0.0)
